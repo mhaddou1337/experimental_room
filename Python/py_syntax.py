@@ -18,7 +18,7 @@ a = b = c = d = "alpha"
 print(d)
 
 cars = ["BMW", "DACIA", "BENZ"]
-g,h,j = cars #in this case g == whats inside index etc
+g,h,j = cars #in this case g == whats inside index 0 etc h and j ++ index same thing
 print(10+10) # we can't add an int to str!
 
 def test_f():
