@@ -25,4 +25,18 @@ function sum_checker(x,y,total)
     else if (x+y !== total)
         throw new Error(`cest pas la meme valuer, abs cest ${Math.abs(total-(x+y))}`)
 }
-
+function multi_hand(age, username,mail,password)
+{
+let gg = ["must be 18 or older", "password not safe","this mail already used","enter an username"];
+    if(age < 18)
+        throw new Error("cuz :" + gg[0]);
+    if(password === 123)
+        throw new Error("cuz :" +gg[1]);
+    if(mail === "s@s.com")
+       throw new Error("cuz :" +gg[2]);
+    if(!username)
+        throw new Error("cuz :" +gg[3]);
+    else
+        console.log("function happy :) ");
+}
+multi_hand(18,"gesf","sdsf",84984);
